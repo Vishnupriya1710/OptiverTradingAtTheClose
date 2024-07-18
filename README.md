@@ -45,10 +45,10 @@ This function windowed_dataset takes a time series data, converts it into a Tens
 
 
 ### LSTM model 2
-* The build_model2 function constructs a sequential neural network with a more complex architecture, including multiple LSTM layers. It has an input layer for a 3D input shape, three LSTM layers with 64 units each (the first two return sequences), dropout regularization between layers, and a dense output layer for predicting stock values. The model is compiled with mean absolute error (MAE) loss and the Adam optimizer with a specified learning rate.
+* The `build_model2` function constructs a sequential neural network with a more complex architecture, including multiple LSTM layers. It has an input layer for a 3D input shape, three LSTM layers with 64 units each (the first two return sequences), dropout regularization between layers, and a dense output layer for predicting stock values. The model is compiled with mean absolute error (MAE) loss and the Adam optimizer with a specified learning rate.
 
 ### LSTM model 3
-* The build_model3 function constructs a sequential neural network with a simpler architecture compared to previous models. It includes an input layer for a 3D input shape, a single LSTM layer with 128 units, dropout regularization, and a dense output layer for predicting stock values. The model is compiled with mean absolute error (MAE) loss and the Adam optimizer with a specified learning rate.
+* The `build_model3` function constructs a sequential neural network with a simpler architecture compared to previous models. It includes an input layer for a 3D input shape, a single LSTM layer with 128 units, dropout regularization, and a dense output layer for predicting stock values. The model is compiled with mean absolute error (MAE) loss and the Adam optimizer with a specified learning rate.
 
 ### Model	MAE score
 * Model 1	- 5.388
