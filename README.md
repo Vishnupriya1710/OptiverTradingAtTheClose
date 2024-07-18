@@ -1,8 +1,11 @@
 # Optiver Trading At The Close
+
+## Objective
+The objective of this project is to develop LSTM (Long Short-Term Memory) models to predict stock values at the close for Optiver Trading. The project aims to evaluate and compare the performance of different LSTM architectures in terms of Mean Absolute Error (MAE), identifying the model with the most accurate predictions. This predictive modeling is crucial for optimizing trading strategies based on accurate forecasting of stock prices at market close.
 ## Description of the notebook
 ### Importing Libraries
 
-* Data loadong and description
+* Data loading and description
 * Exploratory Data Analysis (EDA)
 * Data Preparation
 * Reducing the memory usage
